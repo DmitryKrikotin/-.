@@ -22,13 +22,10 @@ else
     j=4;
     while(i<2&&j>2)
     {     
-        Console.WriteLine(array[i]);
-             //for(j=4;j>2;j=j-1)
-        Console.WriteLine($"j={array[j]}");
         if (array[i]==array[j]) 
-               {             
-                 b++;
-               }
+        {             
+         b++;
+        }
         i++;
         j=j-1;
         
