@@ -2,13 +2,17 @@
 Console.WriteLine("Введите число");
 int N=Convert.ToInt32(Console.ReadLine());
 int i=0;
-while (i!=N)
- {
+if (N>0)
+{
+   while (i!=N)
+    {
     Console.Write(i*i*i);
     Console.Write(' ');
 
     i++;
- }
+    }
+}
+else Console.WriteLine("Число отрицательное или равно 0");
  Console.WriteLine();
 
 
