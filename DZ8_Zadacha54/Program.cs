@@ -19,7 +19,7 @@ for (int i=0; i<m; i++)
 {
     for (int j=0;j<n; j++)
     {
-     array[i,j]=random.Next(1,20);
+     array[i,j]=random.Next(1,120);
      Console.Write($"{array[i, j],3} ");
     }
     Console.WriteLine();
