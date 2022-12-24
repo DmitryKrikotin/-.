@@ -19,8 +19,8 @@ for (int i=0; i<m; i++)
 {
     for (int j=0;j<n; j++)
     {
-     array[i,j]=random.Next(1,100);
-     Console.Write($"{array[i, j]} ");
+     array[i,j]=random.Next(1,20);
+     Console.Write($"{array[i, j],3} ");
     }
     Console.WriteLine();
 }
@@ -38,9 +38,15 @@ for(int i=0;i<m;i++)
       array[i,k]=temp;
     }
    }
-   Console.Write($"{array[i, j]}");
-   
+//  Console.Write($"{array[i, j],4}  ");
+  }
+// Console.WriteLine();
+}
+for(int i=0;i<m;i++)
+{
+  for(int j=0;j<n;j++)
+  {
+    Console.Write($"{array[i, j],3}  ");
   }
   Console.WriteLine();
 }
-
