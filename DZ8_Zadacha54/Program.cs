@@ -38,9 +38,7 @@ for(int i=0;i<m;i++)
       array[i,k]=temp;
     }
    }
-//  Console.Write($"{array[i, j],4}  ");
   }
-// Console.WriteLine();
 }
 for(int i=0;i<m;i++)
 {
