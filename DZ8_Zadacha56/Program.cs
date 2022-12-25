@@ -33,8 +33,8 @@ for(int i=0;i<m;i++)
 {
   for(int j=0;j<n;j++)
   
-  { {sum+=array[i,j];
-    Console.WriteLine(sum);}
+  {sum+=array[i,j];
+    
    if(maxSum<sum)
     {
       indexMax=i;
