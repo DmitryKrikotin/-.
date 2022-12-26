@@ -4,8 +4,6 @@
 Console.WriteLine("Программа выводит все натуральные числа от N до 1");
 Console.Write("Введите число N ");
 int n=Convert.ToInt32(Console.ReadLine());
-//Console.Write("Введите число M ");
-//int m=Convert.ToInt32(Console.ReadLine());
 int count=n;
 int num (int count)
 {
